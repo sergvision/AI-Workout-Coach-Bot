@@ -1,0 +1,30 @@
+{
+  "name": "ai-workout-coach-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Workout Coach Bot for Telegram",
+  "main": "src/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai",
+    "fitness",
+    "workout",
+    "telegraf",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "dotenv": "^17.2.3",
+    "googleapis": "^174.0.1",
+    "telegraf": "^4.16.3"
+  }
+}
